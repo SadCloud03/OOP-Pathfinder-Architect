@@ -8,9 +8,9 @@ This project is a secondary evolution of the original maze. The focus here was t
 ### Proyect Structure
 * /Clases: Contains the core logic.
 
-*   Mapa: Handles grid generation, manual/random obstacle placement, and memory management.
+   * Mapa: Handles grid generation, manual/random obstacle placement, and memory management.
 
-*   CalculadoraDeRutas_BFS: Implements the A* Search Algorithm within a class scope to find the  most efficient route.
+   * CalculadoraDeRutas_BFS: Implements the A* Search Algorithm within a class scope to find the  most efficient route.
 
 * /functions: Decoupled utility functions for UI rendering and map visualization.
 
