@@ -101,8 +101,13 @@ int main() {
 		cin>>columna_fin;
 		
 		calculador.resolver_A(matriz_extra, fila_fin, columna_fin, fila_inicio, columna_inicio);
+		for (int i = 0; i < filas_usuario; i++) {
+			delete[] matriz_extra[i];
+		}
+		delete[] matriz_extra;
 		cout<<"\nDesea calcular otra ruta?: (s/n) ";
 		cin>>desicion;
+
 	}
 	
 	return 0;
