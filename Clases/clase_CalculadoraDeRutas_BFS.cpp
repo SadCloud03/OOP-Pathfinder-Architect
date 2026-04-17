@@ -107,7 +107,7 @@ void CalculadoraDeRutas_BFS::resolver_A(int** matriz, int fila_inicio, int colum
     
     Node* recorrer = objetivo;
     while (recorrer != NULL) {
-        system("CLS");
+        system("clear");
         matriz[recorrer->fila][recorrer->columna] = 2;
         recorrer = recorrer->padre;
         mostrar_mapas(matriz, filas, columnas);

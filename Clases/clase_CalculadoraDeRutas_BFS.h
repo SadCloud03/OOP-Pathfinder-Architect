@@ -24,7 +24,7 @@ public:
     struct compararNodes {bool operator()(const Node* a , const Node* b) const;};
     Node* crearNode(int fila, int columna, int g, int h, int f);
     int heuristica_manhattan(int fila_inicio, int columna_inicio, int fila_fin, int columna_fin);
-void resolver_A(int** matriz, int fila_inicio, int columna_inicio, int fila_fin, int columna_fin);
+    void resolver_A(int** matriz, int fila_inicio, int columna_inicio, int fila_fin, int columna_fin);
 };
 
 #endif
