@@ -35,8 +35,8 @@ This project is a secondary evolution of the original maze. The focus here was t
 ### Setup & Execution 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/SadCloud03/OOP-Pathfinder.git
-cd OOP-Pathfinder
+git clone https://github.com/SadCloud03/OOP-Pathfinder-Architect.git
+cd OOP-Pathfinder-Architect
 ```
 
 2. **Compile the project**
